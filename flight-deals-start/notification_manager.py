@@ -5,7 +5,7 @@ ACCOUNT_SID = "TWILIO ACCOUNT SID"
 AUTH_TOKEN = "TWILIO TOKEN"
 
 USERNAME = "My Email"
-PASSWORD = "hxvtupjyukgivhxx"
+PASSWORD = "MY PASSWORD"
 
 class NotificationManager:
 
