@@ -1,8 +1,9 @@
 import requests
 from pprint import pprint
+import os
 
-USERNAME = "USERNAME"
-PASSWORD = "PASSWORD"
+USERNAME = os.environ.get("SHEET_USERNAME")
+PASSWORD = os.environ.get("SHEET_PASSWORD")
 SHEET_API = "https://api.sheety.co/a3e2c33d40aaba95ce3030d04045f9ad/myFlightDeals/prices"
 USERS_API = "https://api.sheety.co/a3e2c33d40aaba95ce3030d04045f9ad/myFlightDeals/users"
 
