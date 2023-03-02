@@ -4,7 +4,7 @@ import smtplib
 ACCOUNT_SID = "TWILIO ACCOUNT SID"
 AUTH_TOKEN = "TWILIO TOKEN"
 
-USERNAME = "dimimeto@gmail.com"
+USERNAME = "My Email"
 PASSWORD = "hxvtupjyukgivhxx"
 
 class NotificationManager:
