@@ -1,8 +1,8 @@
 import requests
 from pprint import pprint
 
-USERNAME = "Dimitris"
-PASSWORD = "Metochianakis"
+USERNAME = "USERNAME"
+PASSWORD = "PASSWORD"
 SHEET_API = "https://api.sheety.co/a3e2c33d40aaba95ce3030d04045f9ad/myFlightDeals/prices"
 USERS_API = "https://api.sheety.co/a3e2c33d40aaba95ce3030d04045f9ad/myFlightDeals/users"
 
