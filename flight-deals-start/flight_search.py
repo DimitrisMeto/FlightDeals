@@ -3,7 +3,7 @@ import requests
 import pprint
 
 SEARCH_FLIGHT_API = "http://api.tequila.kiwi.com"
-SEARCH_FLIGHT_API_KEY = "5f-zZfK57Ek1BDNTXUNQlXEuIphu5uzX"
+SEARCH_FLIGHT_API_KEY = "API KEY"
 
 
 class FlightSearch:
