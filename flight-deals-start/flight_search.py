@@ -1,9 +1,10 @@
 from flight_data import FlightData
 import requests
 import pprint
+import os
 
 SEARCH_FLIGHT_API = "http://api.tequila.kiwi.com"
-SEARCH_FLIGHT_API_KEY = "API KEY"
+SEARCH_FLIGHT_API_KEY = os.environ.get("API_KEY")
 
 
 class FlightSearch:
