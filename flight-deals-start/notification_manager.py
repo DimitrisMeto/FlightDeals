@@ -1,8 +1,8 @@
 from twilio.rest import Client
 import smtplib
 
-ACCOUNT_SID = "AC110ef33aa51eadd1574d1f437d94a8ac"
-AUTH_TOKEN = "5ae2b360c5918a646970219d09c83eb4"
+ACCOUNT_SID = "TWILIO ACCOUNT SID"
+AUTH_TOKEN = "TWILIO TOKEN"
 
 USERNAME = "dimimeto@gmail.com"
 PASSWORD = "hxvtupjyukgivhxx"
@@ -14,7 +14,7 @@ class NotificationManager:
 
     def send_notificaton(self, body):
 
-        message = self.client.messages.create(body=body, from_="+18508090310", to="+306976106764")
+        message = self.client.messages.create(body=body, from_="+18508090310", to="MY PHONE NUMBER")
 
         print(message.sid)
 
